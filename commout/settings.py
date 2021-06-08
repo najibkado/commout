@@ -34,7 +34,7 @@ SECURE_BROWSER_XSS_FILTER=config('SECURE_BROWSER_XSS_FILTER', cast=bool)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'commout.org']
+ALLOWED_HOSTS = ['127.0.0.1', 'commout.org', 'www.commout.org']
 
 
 # Application definition
